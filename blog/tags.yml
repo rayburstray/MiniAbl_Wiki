@@ -1,0 +1,34 @@
+facebook:
+  label: Facebook
+  permalink: /facebook
+  description: Facebook tag description
+
+hello:
+  label: Hello
+  permalink: /hello
+  description: Hello tag description
+
+docusaurus:
+  label: Docusaurus
+  permalink: /docusaurus
+  description: Docusaurus tag description
+
+hola:
+  label: Hola
+  permalink: /hola
+  description: Hola tag description
+
+prolog:
+  label: Prolog
+  permalink: /prolog
+  description: Prolog tag description
+
+miniABL:
+  label: MiniABL
+  permalink: /miniABL
+  description: MiniABL tag description
+
+abductive learning:
+  label: Abductive Learning
+  permalink: /abl
+  description: Abductive Learning tag description
