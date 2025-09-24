@@ -87,6 +87,22 @@ vlm_config: # 目前只支持豆包
 经过测试，**豆包VLM**在**MiniHack**环境中的表现并不好，尽管它能给大致的描述出环境的内容，但对于一些细节的识别效果并不好（例如会把门与player弄混），因此**VLM**的代码本意其实是想要与**ABL**的方法作对照。(如果你可以改善**VLM**的代码并且使其表现提升，我们也欢迎你的贡献！)
 :::
 
+
+### a2RL(Python)
+
+**a2RL**是[Lamda](https://www.lamda.nju.edu.cn/CH.MainPage.ashx)提出的一个可以不事先定义符号，仅通过**课程学习**即可完成**minigrid**这类延迟奖励环境的任务。[**a2RL**的源代码点击跳转](https://github.com/sporeking/A2RL)。本项目目前计划将其架构重构并融入至**Agent模块**
+
+:::warning
+在使用**a2RL**的时候，请注意将配置文件中的环境设置为**minigrid**，因为**a2RL**的方法不一定能在**minihack**中生效
+:::
+
+
+:::info
+### To_Do_List
+1. [**a2RL论文**](https://www.ijcai.org/proceedings/2025/725)中使用的环境为[**Minigrid**](https://minigrid.farama.org/content/basic_usage/#installation)，所以要将**Minigrid**的环境融入本项目。
+2. 将**a2RL**的代码重构至**Agent模块**。
+:::
+
 ## 基于Prolog的Agent
 
 对于想要使用**Prolog**进行**Agent**构建的用户, 可以在**src/agent_manager/prolog_agent**下创建一个**Prolog**文件.并且保证其中一定出现以下谓词:
