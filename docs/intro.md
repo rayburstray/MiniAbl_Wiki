@@ -50,6 +50,7 @@ env_config:
 vision_config:
   type: "cnn" # none, cnn, vlm, gt
   cnn_config:
+    device: "cuda:7"
     num_classes: 7 # 分类器的label数目
 
 # 智能体策略设置
